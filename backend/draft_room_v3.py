@@ -41,9 +41,9 @@ from iron_logic import (
 )
 
 # Import Sparring Benchmarks
-from sparring_benchmarks import (
-    PROSPECT_CARDS, ProspectCard, get_war_room_secret,
-    get_consensus_top_n
+from from sparring_benchmarks.benchmarks import (
+    PROSPECT_CARDS,
+    # ... other stuff
 )
 
 
