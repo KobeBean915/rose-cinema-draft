@@ -30,7 +30,7 @@ from iron_logic import (
     get_position_dvm,
     get_coaching_tree_boost,
 )
-from sparring_benchmarks import (
+from sparring_benchmarks.benchmarks import (
     PROSPECT_CARDS,
     get_war_room_secret,
     get_consensus_top_n,
