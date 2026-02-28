@@ -1,0 +1,31 @@
+{
+  "name": "draft-room-web",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Rose Cinema Draft Room — NFL Draft Simulation",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "backend": "cd backend && uvicorn main:app --reload --port 8000",
+    "dev:all": "concurrently \"npm run dev\" \"npm run backend\""
+  },
+  "dependencies": {
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zustand": "^5.0.0",
+    "framer-motion": "^11.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0",
+    "concurrently": "^9.1.0",
+    "@next/eslint-plugin-next": "^15.1.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.1.0"
+  }
+}

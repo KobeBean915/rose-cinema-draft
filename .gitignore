@@ -1,0 +1,19 @@
+# Ignore Mac system junk
+.DS_Store
+
+# Ignore Node.js "heavy" folders
+node_modules/
+.next/
+out/
+build/
+
+# Ignore Python "trash" files
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Ignore logs
+npm-debug.log*
+yarn-error.log*
