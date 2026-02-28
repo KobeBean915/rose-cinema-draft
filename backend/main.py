@@ -34,13 +34,13 @@ from connection_manager import ConnectionManager, SessionState, manager
 from draft_engine_async import AsyncDraftEngine
 
 # Import original data modules — UNCHANGED
-from sparring_benchmarks import (
+from sparring_benchmarks.benchmarks import (
     PROSPECT_CARDS,
     get_prospect_by_rank,
     get_consensus_top_n,
     get_prospects_by_position,
 )
-from team_data_2026 import (
+from team_data_2026.teams import (
     DRAFT_ORDER_2026,
     TEAM_NEEDS_2026,
     TEAM_AGGRESSION_2026,
