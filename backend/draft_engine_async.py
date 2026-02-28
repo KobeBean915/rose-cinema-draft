@@ -35,7 +35,7 @@ from sparring_benchmarks.benchmarks import (
     get_war_room_secret,
     get_consensus_top_n,
 )
-from team_data_2026 import (
+from team_data_2026.teams import (
     DRAFT_ORDER_2026,
     TEAM_NEEDS_2026,
     TEAM_AGGRESSION_2026,
