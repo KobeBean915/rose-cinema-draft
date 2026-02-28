@@ -41,7 +41,7 @@ from iron_logic import (
 )
 
 # Import Sparring Benchmarks
-from from sparring_benchmarks.benchmarks import (
+from sparring_benchmarks.benchmarks import (
     PROSPECT_CARDS,
     # ... other stuff
 )
